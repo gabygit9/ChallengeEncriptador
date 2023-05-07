@@ -181,59 +181,102 @@ nav button{
     opacity: 50%;
 }
 
-@media screen and (max-width:280px){
-    .caja, #mensaje{
-        width: auto;
+@media screen and (max-width:480px){
+   
+    .caja{
+        width: 90vw;
+        height: 13vh;
     }
+
+    .logo{
+        height: 15vh;
+        width: 60vw;
+        left: -65%;
+    }
+
     #mensaje{
-        height: 290px;
+        height: 75vh;
         top: 60px;
-        left: 140px;
-        width: 220%;
+        left: 42%;
+        width: 170vw;
     }
    
     .box li{
         position: absolute;
-        width: 70%;
+        width: 70vw;
         padding: 30px 0;
     }
+
+    .box h1{
+        left: 95px;
+        font-weight: bold;
+    }
     .box p{
-        top: 50px;
-        left: 319%;
+        top: 445px;
+        left: 42%;
+        width: 180vw;
+        font-size: 40px;
     }
     .rectangulo{
-        width: 175%;
-        height: 130%;
-        left: 280%;
-        margin-left: 0%;
+        width: 225vw;
+        height: 55vh;
+        left: 0%;
+        top: 121%;
+        margin-left: 9%;
         margin-top: 15px;
     }
 
     .muneco{
         width: 85%;
         left: 310%;
+        display:none
+    }
+
+    .text p{
+        opacity: 80%;
     }
 
     #contenedor{
-        left: 301%;
+        left: 25%;
+        top: 120%;
+        height: 43vh;
+        width: 202vw;
+        border-radius: 25px;
+    }
+
+    .texto-encriptado{
+        position: relative;
+        top: 10%;
+        width: 160vw;
+    }
+
+    .copiar{
+        width: 180vw;
+        height: 12vh;
+        font-size: 41px;
+        top: 17%;
     }
 
     nav p{
-        left: 40%;
-        top: 370px;
+        left: 1%;
+        top: 553px;
+        font-size: 32px;
+        opacity: 60%;
+        text-align: center;
     }
 
     .btn{
         position: relative;
-        top:95px;
+        top:30px;
     }
 
     .btn button{
-        width: 300px;
-        height: 50px;
-        left: 180px;
-        margin: 5px;
-        top: 40px;
+        width: 198vw;
+        height: 18vh;
+        left: 21px;
+        margin: 15px;
+        top: 226px;
+        font-size: 47px;
     }
     #encriptar a{
         position: absolute;
@@ -246,7 +289,8 @@ nav button{
         top: 400px;
     } 
     .me{
-        top: 345px;
-        left: 50%;
+        top: 910px;
+        left: 7%;
+        font-size: 20px;
     }
 }
