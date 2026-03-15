@@ -75,7 +75,7 @@ La encriptación utiliza las siguientes reglas de sustitución:
 
 ## 👤 Autor
 
-- **Gabriel** - [@gabygit9](https://github.com/gabygit9)
+- **Gabriela** - [@gabygit9](https://github.com/gabygit9)
 
 ## 📚 Programa ONE
 
